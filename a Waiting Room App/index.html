@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>the waiting room app</title>
+        <script src="main.js"></script>
+    </head>
+
+    <body onload="printWaitingRoom()">
+        <h2>Waiting Room</h2>
+        <p>
+            <input type="text" name="patientName" placeholder="Type a name" id="myPatient">
+            <button onclick="addPatient();">Add patient!</button>
+            <button onclick="nextPatient();">Call the bext patient!</button>
+        </p>
+        <br>
+
+        <p><span id="numberOfPatient"></span>
+        <span id="waitingRoom">patients in the waiting room:</span></p>
+
+        <p id="currentPatient">The current patient is:</p>
+
+    </body>
+
+
+</html>
